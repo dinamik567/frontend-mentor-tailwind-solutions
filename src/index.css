@@ -1,0 +1,39 @@
+/* Barlow */
+
+@font-face {
+  font-family: "Barlow";
+  src: local("Barlow"),
+    url("./assets/fonts/barlow/Barlow-Medium.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: local("Barlow"),
+    url("./assets/fonts/barlow/Barlow-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+}
+
+/* Heebo */
+
+@font-face {
+  font-family: "Heebo";
+  src: local("Heebo"),
+    url("./assets/fonts/heebo/Heebo-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: local("Heebo"),
+    url("./assets/fonts/heebo/Heebo-Regular.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100%;
+}
